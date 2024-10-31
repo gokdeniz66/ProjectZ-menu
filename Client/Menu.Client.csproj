@@ -1,0 +1,11 @@
+<Project Sdk="CitizenFX.Sdk.Client/0.2.2">
+  <ItemGroup>
+      <Compile Include="../Shared/**/*.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+      <Reference Include="LemonUI.FiveM">
+          <HintPath>libs\LemonUI.FiveM.dll</HintPath>
+      </Reference>
+  </ItemGroup>
+</Project>
